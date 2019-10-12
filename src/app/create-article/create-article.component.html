@@ -1,0 +1,19 @@
+
+  <ion-content>
+      <ion-item>
+          <ion-label position="floating">Enter  title</ion-label>
+      <ion-input  placeholder="Enter info .."></ion-input>
+    </ion-item>
+      <ion-item>
+          <ion-label position="floating">Enter dub title</ion-label>
+      <ion-input placeholder="Enter info .."></ion-input>
+    </ion-item>
+      <ion-item>
+          <ion-label position="floating">Description</ion-label>
+          <ion-textarea rows="6" cols="20" placeholder="Enter more information here..."></ion-textarea>
+        </ion-item>
+        <div>
+            <ion-button slot="end" (click)="closeModal()" color="secondary">return</ion-button>
+            <ion-button slot="end"  color="primary" (click)="closeModal()">Save</ion-button>
+        </div>
+</ion-content>

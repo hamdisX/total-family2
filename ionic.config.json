@@ -1,0 +1,7 @@
+{
+  "name": "total-family2",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
